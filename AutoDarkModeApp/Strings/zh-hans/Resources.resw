@@ -949,7 +949,7 @@
     <value>标题栏和窗口边框的强调色</value>
   </data>
   <data name="AggressiveDwmRefresh" xml:space="preserve">
-    <value>更激进的 DWM 刷新</value>
+    <value>更激进的主题切换</value>
   </data>
   <data name="OffsetTime_Header" xml:space="preserve">
     <value>延迟切换（分钟）</value>
@@ -1026,108 +1026,108 @@
     <value>隐藏托盘图标</value>
   </data>
   <data name="AutoSwitchNotifyUnavailable_Content" xml:space="preserve">
-    <value>The ambient light sensor switches as soon as the brightness passes a threshold, so there is no upcoming switch to announce in advance.</value>
+    <value>亮度一超过阈值就会切换氛围光传感器的开关状态，所以没有要提前宣布的即将到来的切换。</value>
     <comment>Info bar explaining why the switch notification option is disabled</comment>
   </data>
   <data name="AutoSwitchNotifyUnavailable_Title" xml:space="preserve">
-    <value>Not available with the ambient light sensor</value>
+    <value>该氛围光亮传感器无此功能</value>
     <comment>Info bar title shown when the ambient light governor is active</comment>
   </data>
   <data name="HotkeyDuplicateErrorTitle" xml:space="preserve">
-    <value>Duplicate Hotkey</value>
+    <value>重复的热键</value>
   </data>
   <data name="HotkeyDuplicateErrorMessage" xml:space="preserve">
-    <value>This hotkey is already used by "{0}". Please choose a different key combination.</value>
+    <value>"{0}" 已使用此热键。请选择不同的按键组合。</value>
   </data>
   <data name="HotkeyInvalidErrorMessage" xml:space="preserve">
-    <value>Invalid hotkey combination. Please include at least one non-modifier key (e.g., a letter, number, or function key).</value>
+    <value>无效的热键组合。请包含至少一个非修饰键（如英文字母键、数字键或功能键）。</value>
   </data>
   <data name="NextUpdateInProgress" xml:space="preserve">
-    <value>In progress</value>
+    <value>进行中</value>
     <comment>Shown instead of a date when the location has not been retrieved yet</comment>
   </data>
   <data name="ShowTrayIcon" xml:space="preserve">
-    <value>Show tray icon (recommended)</value>
+    <value>显示托盘图标（推荐）</value>
   </data>
   <data name="AmbientLightSensor" xml:space="preserve">
-    <value>Ambient light sensor</value>
+    <value>氛围光亮传感器</value>
   </data>
   <data name="AmbientLightSensor_Description" xml:space="preserve">
-    <value>Automatically switch themes based on ambient light levels detected by your device's light sensor.</value>
+    <value>根据设备光亮传感器检测到的氛围光级别自动切换主题。</value>
   </data>
   <data name="AmbientLightThresholds" xml:space="preserve">
-    <value>Light thresholds</value>
+    <value>光亮阈值</value>
   </data>
   <data name="AmbientLightThresholds_Header" xml:space="preserve">
-    <value>Configure light thresholds</value>
+    <value>配置光亮阈值</value>
   </data>
   <data name="AmbientLightThresholds_Description" xml:space="preserve">
-    <value>This feature automatically switches the theme based on the brightness of your environment. Set the light levels (in lux) at which the theme should switch. Use different thresholds to prevent rapid switching.</value>
+    <value>此功能根据环境亮度自动切换主题。设定主题应该切换的光亮等级（单位为 lux）。使用不同的阈值防止快速切换。</value>
   </data>
   <data name="AmbientLightDarkThreshold" xml:space="preserve">
-    <value>Dark below (lux)</value>
+    <value>低于 (lux)</value>
   </data>
   <data name="AmbientLightLightThreshold" xml:space="preserve">
-    <value>Light above (lux)</value>
+    <value>高于 (lux)</value>
   </data>
   <data name="AmbientLightCurrentReading" xml:space="preserve">
-    <value>Current light level</value>
+    <value>当前光亮等级</value>
   </data>
   <data name="AmbientLightReference" xml:space="preserve">
-    <value>Light level reference guide</value>
+    <value>光亮等级参考指南</value>
   </data>
   <data name="AmbientLightRef_Moonlight" xml:space="preserve">
-    <value>Moonlight</value>
+    <value>月光</value>
   </data>
   <data name="AmbientLightRef_VeryDark" xml:space="preserve">
-    <value>Very dark room</value>
+    <value>非常暗的房间</value>
   </data>
   <data name="AmbientLightRef_DimRoom" xml:space="preserve">
-    <value>Dimly lit room</value>
+    <value>昏暗的房间</value>
   </data>
   <data name="AmbientLightRef_LivingRoom" xml:space="preserve">
-    <value>Living room / bedroom</value>
+    <value>起居室/卧室</value>
   </data>
   <data name="AmbientLightRef_Office" xml:space="preserve">
-    <value>Office lighting</value>
+    <value>办公室光照</value>
   </data>
   <data name="AmbientLightRef_Overcast" xml:space="preserve">
-    <value>Overcast day indoors</value>
+    <value>阴天室内亮度</value>
   </data>
   <data name="AmbientLightRef_DaylightShade" xml:space="preserve">
-    <value>Daylight (shade)</value>
+    <value>日光（阴影）</value>
   </data>
   <data name="AmbientLightRef_DirectSun" xml:space="preserve">
-    <value>Direct sunlight</value>
+    <value>日光直射</value>
   </data>
   <data name="AmbientLightNoSensor" xml:space="preserve">
-    <value>No sensor detected</value>
+    <value>未检测到传感器</value>
   </data>
   <data name="AmbientLightAutoConfigure" xml:space="preserve">
-    <value>Calibrate</value>
+    <value>校准</value>
   </data>
   <data name="AmbientLightAutoConfigure_ToolTip" xml:space="preserve">
-    <value>Automatically set thresholds based on current light level (±15% smart gap)</value>
+    <value>根据当前光亮级别自动设置阈值（智能间隙 ±15% ）</value>
   </data>
   <data name="AmbientLightSensor_ToolTip" xml:space="preserve">
-    <value>Automatically switches the theme based on environment lighting</value>
+    <value>根据环境光自动切换主题</value>
   </data>
   <data name="AmbientLightSensor_Unavailable_ToolTip" xml:space="preserve">
-    <value>This feature isn't available on your device because no ambient light sensor was detected</value>
+    <value>你的设备没有这个功能，因为没有检测到氛围光传感器</value>
   </data>
   <data name="AmbientLightCurrent" xml:space="preserve">
-    <value>Current:</value>
+    <value>当前：</value>
   </data>
   <data name="DocumentationSocial" xml:space="preserve">
-    <value>Documentation &amp; Social</value>
+    <value>文档和社交媒体</value>
   </data>
   <data name="UsedSoftware" xml:space="preserve">
-    <value>Used software</value>
+    <value>所用软件</value>
   </data>
   <data name="Diagnostics" xml:space="preserve">
-    <value>Diagnostics</value>
+    <value>诊断</value>
   </data>
   <data name="Contributors" xml:space="preserve">
-    <value>Contributors</value>
+    <value>贡献者</value>
   </data>
 </root>
