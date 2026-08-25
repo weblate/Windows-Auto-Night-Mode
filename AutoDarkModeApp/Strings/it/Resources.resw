@@ -797,7 +797,7 @@ Versione attualmente installata: {0}, nuova versione: {1}</value>
     <value>Modalità tracciamento</value>
   </data>
   <data name="Translator" xml:space="preserve">
-    <value>Traduttore: balzabalza &amp; albertopasqualetto &amp; LightDestory &amp; Hexaae</value>
+    <value>Traduttore: balzabalza &amp; albertopasqualetto &amp; LightDestory &amp; Hexaae &amp; mapi68</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>Tipo</value>
@@ -959,7 +959,7 @@ Versione attualmente installata: {0}, nuova versione: {1}</value>
     <value>Colore principale per le barre del titolo e i bordi delle finestre</value>
   </data>
   <data name="AggressiveDwmRefresh" xml:space="preserve">
-    <value>Aggiornamento DWM più aggressivo</value>
+    <value>Cambio di tema più aggressivo</value>
   </data>
   <data name="OffsetTime_Header" xml:space="preserve">
     <value>Ritarda la commutazione di alcuni minuti</value>
@@ -1036,108 +1036,108 @@ Vuoi davvero continuare?</value>
     <value>Nascondi icona dell'area di notifica</value>
   </data>
   <data name="AutoSwitchNotifyUnavailable_Content" xml:space="preserve">
-    <value>The ambient light sensor switches as soon as the brightness passes a threshold, so there is no upcoming switch to announce in advance.</value>
+    <value>Il sensore di luce ambientale si attiva non appena la luminosità supera una determinata soglia, quindi non c'è alcun preavviso di accensione o spegnimento.</value>
     <comment>Info bar explaining why the switch notification option is disabled</comment>
   </data>
   <data name="AutoSwitchNotifyUnavailable_Title" xml:space="preserve">
-    <value>Not available with the ambient light sensor</value>
+    <value>Non disponibile con il sensore di luce ambientale</value>
     <comment>Info bar title shown when the ambient light governor is active</comment>
   </data>
   <data name="HotkeyDuplicateErrorTitle" xml:space="preserve">
-    <value>Duplicate Hotkey</value>
+    <value>Tasto di scelta rapida duplicato</value>
   </data>
   <data name="HotkeyDuplicateErrorMessage" xml:space="preserve">
-    <value>This hotkey is already used by "{0}". Please choose a different key combination.</value>
+    <value>Questo tasto di scelta rapida è già utilizzato da "{0}". Si prega di scegliere una combinazione di tasti diversa.</value>
   </data>
   <data name="HotkeyInvalidErrorMessage" xml:space="preserve">
-    <value>Invalid hotkey combination. Please include at least one non-modifier key (e.g., a letter, number, or function key).</value>
+    <value>Combinazione di tasti di scelta rapida non valida. Si prega di includere almeno un tasto non modificatore (ad esempio, una lettera, un numero o un tasto funzione).</value>
   </data>
   <data name="NextUpdateInProgress" xml:space="preserve">
-    <value>In progress</value>
+    <value>In corso</value>
     <comment>Shown instead of a date when the location has not been retrieved yet</comment>
   </data>
   <data name="ShowTrayIcon" xml:space="preserve">
-    <value>Show tray icon (recommended)</value>
+    <value>Mostra icona nella barra delle applicazioni (consigliato)</value>
   </data>
   <data name="AmbientLightSensor" xml:space="preserve">
-    <value>Ambient light sensor</value>
+    <value>Sensore di luce ambientale</value>
   </data>
   <data name="AmbientLightSensor_Description" xml:space="preserve">
-    <value>Automatically switch themes based on ambient light levels detected by your device's light sensor.</value>
+    <value>Cambia automaticamente il tema in base ai livelli di luce ambientale rilevati dal sensore di luce del tuo dispositivo.</value>
   </data>
   <data name="AmbientLightThresholds" xml:space="preserve">
-    <value>Light thresholds</value>
+    <value>Soglie di luce</value>
   </data>
   <data name="AmbientLightThresholds_Header" xml:space="preserve">
-    <value>Configure light thresholds</value>
+    <value>Configura soglie di luce</value>
   </data>
   <data name="AmbientLightThresholds_Description" xml:space="preserve">
-    <value>This feature automatically switches the theme based on the brightness of your environment. Set the light levels (in lux) at which the theme should switch. Use different thresholds to prevent rapid switching.</value>
+    <value>Questa funzione cambia automaticamente il tema in base alla luminosità dell'ambiente. Imposta i livelli di luce (in lux) ai quali il tema deve cambiare. Utilizza soglie diverse per evitare cambi troppo rapidi.</value>
   </data>
   <data name="AmbientLightDarkThreshold" xml:space="preserve">
-    <value>Dark below (lux)</value>
+    <value>Buio sotto (lux)</value>
   </data>
   <data name="AmbientLightLightThreshold" xml:space="preserve">
-    <value>Light above (lux)</value>
+    <value>Luce sopra (lux)</value>
   </data>
   <data name="AmbientLightCurrentReading" xml:space="preserve">
-    <value>Current light level</value>
+    <value>Livello di luce attuale</value>
   </data>
   <data name="AmbientLightReference" xml:space="preserve">
-    <value>Light level reference guide</value>
+    <value>Guida di riferimento ai livelli di luce</value>
   </data>
   <data name="AmbientLightRef_Moonlight" xml:space="preserve">
-    <value>Moonlight</value>
+    <value>Chiaro di luna</value>
   </data>
   <data name="AmbientLightRef_VeryDark" xml:space="preserve">
-    <value>Very dark room</value>
+    <value>Stanza molto buia</value>
   </data>
   <data name="AmbientLightRef_DimRoom" xml:space="preserve">
-    <value>Dimly lit room</value>
+    <value>Stanza scarsamente illuminata</value>
   </data>
   <data name="AmbientLightRef_LivingRoom" xml:space="preserve">
-    <value>Living room / bedroom</value>
+    <value>Soggiorno/camera da letto</value>
   </data>
   <data name="AmbientLightRef_Office" xml:space="preserve">
-    <value>Office lighting</value>
+    <value>Illuminazione per ufficio</value>
   </data>
   <data name="AmbientLightRef_Overcast" xml:space="preserve">
-    <value>Overcast day indoors</value>
+    <value>Giornata nuvolosa al chiuso</value>
   </data>
   <data name="AmbientLightRef_DaylightShade" xml:space="preserve">
-    <value>Daylight (shade)</value>
+    <value>Luce diurna (ombra)</value>
   </data>
   <data name="AmbientLightRef_DirectSun" xml:space="preserve">
-    <value>Direct sunlight</value>
+    <value>Luce solare diretta</value>
   </data>
   <data name="AmbientLightNoSensor" xml:space="preserve">
-    <value>No sensor detected</value>
+    <value>Nessun sensore rilevato</value>
   </data>
   <data name="AmbientLightAutoConfigure" xml:space="preserve">
-    <value>Calibrate</value>
+    <value>Calibra</value>
   </data>
   <data name="AmbientLightAutoConfigure_ToolTip" xml:space="preserve">
-    <value>Automatically set thresholds based on current light level (±15% smart gap)</value>
+    <value>Impostazione automatica delle soglie in base al livello di luce attuale (±15% di tolleranza intelligente)</value>
   </data>
   <data name="AmbientLightSensor_ToolTip" xml:space="preserve">
-    <value>Automatically switches the theme based on environment lighting</value>
+    <value>Cambia automaticamente il tema in base all'illuminazione ambientale</value>
   </data>
   <data name="AmbientLightSensor_Unavailable_ToolTip" xml:space="preserve">
-    <value>This feature isn't available on your device because no ambient light sensor was detected</value>
+    <value>Questa funzione non è disponibile sul tuo dispositivo perché non è stato rilevato alcun sensore di luce ambientale</value>
   </data>
   <data name="AmbientLightCurrent" xml:space="preserve">
-    <value>Current:</value>
+    <value>Attuale:</value>
   </data>
   <data name="DocumentationSocial" xml:space="preserve">
-    <value>Documentation &amp; Social</value>
+    <value>Documentazione e Social</value>
   </data>
   <data name="UsedSoftware" xml:space="preserve">
-    <value>Used software</value>
+    <value>Software utilizzato</value>
   </data>
   <data name="Diagnostics" xml:space="preserve">
-    <value>Diagnostics</value>
+    <value>Diagnostica</value>
   </data>
   <data name="Contributors" xml:space="preserve">
-    <value>Contributors</value>
+    <value>Collaboratori</value>
   </data>
 </root>
