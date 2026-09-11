@@ -157,7 +157,7 @@
     <value>자동</value>
   </data>
   <data name="AutomaticThemeSwitch" xml:space="preserve">
-    <value>테마 자동 전환 활성화</value>
+    <value>자동 테마 전환 켜기/끄기</value>
   </data>
   <data name="AutoStart" xml:space="preserve">
     <value>자동 시작</value>
@@ -364,9 +364,6 @@ Auto Dark Mode 레포지토리에 문제를 등록할까요?</value>
   <data name="Hex code" xml:space="preserve">
     <value>Hex 코드</value>
   </data>
-  <data name="HideTrayIcon" xml:space="preserve">
-    <value>트레이 아이콘 숨기기 (권장하지 않음)</value>
-  </data>
   <data name="Hotkeys" xml:space="preserve">
     <value>단축키</value>
   </data>
@@ -488,7 +485,7 @@ Auto Dark Mode 레포지토리에 문제를 등록할까요?</value>
     <value>이 옵션은 사전 설정된 기본 Windows 테마를 지원하지 않습니다</value>
   </data>
   <data name="Msg_LocPerm" xml:space="preserve">
-    <value>Auto Dark Mode needs the permission to access your location</value>
+    <value>Auto Dark Mode는 위치에 접근하기 위한 권한이 필요합니다</value>
   </data>
   <data name="Msg_NoService" xml:space="preserve">
     <value>아직 서비스가 실행되지 않았습니다. 잠시만 기다려 주세요…</value>
@@ -580,7 +577,7 @@ Auto Dark Mode 레포지토리에 문제를 등록할까요?</value>
     <value>개인 설정</value>
   </data>
   <data name="PickAccentColor" xml:space="preserve">
-    <value>Pick an accent color</value>
+    <value>강조 색상을 선택하세요</value>
   </data>
   <data name="PickCursor" xml:space="preserve">
     <value>마우스 커서 선택</value>
@@ -790,9 +787,6 @@ Auto Dark Mode 레포지토리에 문제를 등록할까요?</value>
     <value>일출</value>
     <comment>Info for Translators: Use name from the Win11 settings (go to personalization -&gt; themes and hover over the theme name)</comment>
   </data>
-  <data name="ThirdParty" xml:space="preserve">
-    <value>타사 소프트웨어 사용</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>시간</value>
   </data>
@@ -965,10 +959,10 @@ Auto Dark Mode 레포지토리에 문제를 등록할까요?</value>
     <value>작업 표시줄과 창 테두리의 강조 색상</value>
   </data>
   <data name="AggressiveDwmRefresh" xml:space="preserve">
-    <value>더욱 공격적으로 DWM 새로 고침</value>
+    <value>더 공격적인 테마 전환</value>
   </data>
   <data name="OffsetTime_Header" xml:space="preserve">
-    <value>Delay switching by a number minutes</value>
+    <value>전환을 몇 분 지연시키세요</value>
   </data>
   <data name="OffsetTime_Description" xml:space="preserve">
     <value>양수 값은 더 늦고, 음수 값은 더 빠릅니다</value>
@@ -1010,32 +1004,29 @@ On rare occasions, Windows may emit a beeping sound when the mouse is moved duri
   <data name="OpenWindowsSettings" xml:space="preserve">
     <value>Windows 설정 열기</value>
   </data>
-  <data name="HotkeyInfoBarMessage" xml:space="preserve">
-    <value>Hotkeys can only be changed while disabled</value>
-  </data>
   <data name="SelectedColor" xml:space="preserve">
-    <value>Currently selected color</value>
+    <value>현재 선택된 색상</value>
   </data>
   <data name="WindowsColors" xml:space="preserve">
-    <value>Windows color</value>
+    <value>창 색상</value>
   </data>
   <data name="Msg_AutomaticColorModeDescription" xml:space="preserve">
-    <value>Automatic accent color is selected. The color will be determined by the current wallpaper</value>
+    <value>자동 강조 색상이 선택되었습니다. 색상은 현재 배경화면에 의해 결정됩니다</value>
   </data>
   <data name="ColorPreview" xml:space="preserve">
-    <value>Color preview</value>
+    <value>색상 미리보기</value>
   </data>
   <data name="Preview" xml:space="preserve">
-    <value>Preview</value>
+    <value>미리보기</value>
   </data>
   <data name="AccentApplyTaskbar" xml:space="preserve">
-    <value>Accent color for the taskbar</value>
+    <value>작업 표시줄의 강조 색상</value>
   </data>
   <data name="PowerToysConflict_Content" xml:space="preserve">
-    <value>PowerToys Light Switch is active and may conflict with Auto Dark Mode. Disable it in PowerToys settings to avoid unexpected theme switching.</value>
+    <value>PowerToys의 라이트 스위치가 활성화되어 있어 자동 다크 모드와 충돌할 수 있습니다. 예기치 않은 테마 변경을 피하려면 파워토이 설정에서 이를 비활성화하세요.</value>
   </data>
   <data name="PowerToysConflict_Title" xml:space="preserve">
-    <value>PowerToys Light Switch detected</value>
+    <value>PowerToys 라이트 스위치가 감지되었습니다</value>
   </data>
   <data name="HideTrayIconMsg_Content" xml:space="preserve">
     <value>아이콘을 숨기는 것은 권장되지 않습니다.
@@ -1043,5 +1034,110 @@ On rare occasions, Windows may emit a beeping sound when the mouse is moved duri
   </data>
   <data name="HideTrayIconMsg_Title" xml:space="preserve">
     <value>트레이 아이콘 숨기기</value>
+  </data>
+  <data name="AutoSwitchNotifyUnavailable_Content" xml:space="preserve">
+    <value>주변광 센서는 밝기가 임계값을 넘으면 바로 스위치를 켜기 때문에 미리 알릴 스위치 전환이 없습니다.</value>
+    <comment>Info bar explaining why the switch notification option is disabled</comment>
+  </data>
+  <data name="AutoSwitchNotifyUnavailable_Title" xml:space="preserve">
+    <value>주변광 센서에서는 사용할 수 없습니다</value>
+    <comment>Info bar title shown when the ambient light governor is active</comment>
+  </data>
+  <data name="HotkeyDuplicateErrorTitle" xml:space="preserve">
+    <value>단축키 중복</value>
+  </data>
+  <data name="HotkeyDuplicateErrorMessage" xml:space="preserve">
+    <value>이 단축키는 이미 "{0}".에 의해 사용되고 있습니다. 다른 키 조합을 선택해 주세요.</value>
+  </data>
+  <data name="HotkeyInvalidErrorMessage" xml:space="preserve">
+    <value>잘못된 단축키 조합입니다. 변환자가 아닌 키 (예: 문자, 숫자, 또는 기능 키)를 최소 한 개 이상 포함해 주세요.</value>
+  </data>
+  <data name="NextUpdateInProgress" xml:space="preserve">
+    <value>진행 중</value>
+    <comment>Shown instead of a date when the location has not been retrieved yet</comment>
+  </data>
+  <data name="ShowTrayIcon" xml:space="preserve">
+    <value>트레이 아이콘 표시 (권장)</value>
+  </data>
+  <data name="AmbientLightSensor" xml:space="preserve">
+    <value>주변광 센서</value>
+  </data>
+  <data name="AmbientLightSensor_Description" xml:space="preserve">
+    <value>장치의 조도 센서가 감지한 주변 조명 수준에 따라 테마를 자동으로 전환합니다.</value>
+  </data>
+  <data name="AmbientLightThresholds" xml:space="preserve">
+    <value>빛 임계값</value>
+  </data>
+  <data name="AmbientLightThresholds_Header" xml:space="preserve">
+    <value>조명 임계값 설정</value>
+  </data>
+  <data name="AmbientLightThresholds_Description" xml:space="preserve">
+    <value>이 기능은 주변 밝기에 따라 테마를 자동으로 전환합니다. 테마가 전환될 조도 (룩스 단위)를 설정하세요. 빠른 전환을 방지하기 위해 서로 다른 임계값을 사용하세요.</value>
+  </data>
+  <data name="AmbientLightDarkThreshold" xml:space="preserve">
+    <value>아래가 어두움 (룩스)</value>
+  </data>
+  <data name="AmbientLightLightThreshold" xml:space="preserve">
+    <value>위가 밝음 (룩스)</value>
+  </data>
+  <data name="AmbientLightCurrentReading" xml:space="preserve">
+    <value>현재 조도</value>
+  </data>
+  <data name="AmbientLightReference" xml:space="preserve">
+    <value>광 레벨 기준 가이드</value>
+  </data>
+  <data name="AmbientLightRef_Moonlight" xml:space="preserve">
+    <value>달빛</value>
+  </data>
+  <data name="AmbientLightRef_VeryDark" xml:space="preserve">
+    <value>아주 어두운 방</value>
+  </data>
+  <data name="AmbientLightRef_DimRoom" xml:space="preserve">
+    <value>조명이 어두운 방</value>
+  </data>
+  <data name="AmbientLightRef_LivingRoom" xml:space="preserve">
+    <value>거실 / 침실</value>
+  </data>
+  <data name="AmbientLightRef_Office" xml:space="preserve">
+    <value>사무실 조명</value>
+  </data>
+  <data name="AmbientLightRef_Overcast" xml:space="preserve">
+    <value>실내의 흐린 날</value>
+  </data>
+  <data name="AmbientLightRef_DaylightShade" xml:space="preserve">
+    <value>햇빛 (그늘)</value>
+  </data>
+  <data name="AmbientLightRef_DirectSun" xml:space="preserve">
+    <value>직사광선</value>
+  </data>
+  <data name="AmbientLightNoSensor" xml:space="preserve">
+    <value>센서가 감지되지 않음</value>
+  </data>
+  <data name="AmbientLightAutoConfigure" xml:space="preserve">
+    <value>보정</value>
+  </data>
+  <data name="AmbientLightAutoConfigure_ToolTip" xml:space="preserve">
+    <value>현재 조도에 따라 임계값을 자동으로 설정합니다 (±15% 스마트 갭)</value>
+  </data>
+  <data name="AmbientLightSensor_ToolTip" xml:space="preserve">
+    <value>주변 조명에 따라 테마를 자동으로 전환합니다</value>
+  </data>
+  <data name="AmbientLightSensor_Unavailable_ToolTip" xml:space="preserve">
+    <value>주변광 센서가 감지되지 않아 이 기능을 기기에서 사용할 수 없습니다</value>
+  </data>
+  <data name="AmbientLightCurrent" xml:space="preserve">
+    <value>현재:</value>
+  </data>
+  <data name="DocumentationSocial" xml:space="preserve">
+    <value>문서 및 소셜</value>
+  </data>
+  <data name="UsedSoftware" xml:space="preserve">
+    <value>사용된 소프트웨어</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>진단</value>
+  </data>
+  <data name="Contributors" xml:space="preserve">
+    <value>기여자</value>
   </data>
 </root>

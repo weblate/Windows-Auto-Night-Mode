@@ -364,9 +364,6 @@ Asegúrate de que:
   <data name="Hex code" xml:space="preserve">
     <value>Código hexadecimal</value>
   </data>
-  <data name="HideTrayIcon" xml:space="preserve">
-    <value>Esconder icono de la bandeja del sistema</value>
-  </data>
   <data name="Hotkeys" xml:space="preserve">
     <value>Atajos de teclado</value>
   </data>
@@ -790,9 +787,6 @@ La versión actualmente instalada es: {0}, versión nueva: {1}</value>
     <value>Amanecer</value>
     <comment>Info for Translators: Use name from the Win11 settings (go to personalization -&gt; themes and hover over the theme name)</comment>
   </data>
-  <data name="ThirdParty" xml:space="preserve">
-    <value>Software de terceros utilizado</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>Hora</value>
   </data>
@@ -1010,9 +1004,6 @@ En ocasiones raras, las ventanas pueden emit un sonido de aviso cuando el ratón
   <data name="OpenWindowsSettings" xml:space="preserve">
     <value>Abrir ajustes de Windows</value>
   </data>
-  <data name="HotkeyInfoBarMessage" xml:space="preserve">
-    <value>Las teclas de acceso rápido solo se pueden cambiar cuando están desactivadas</value>
-  </data>
   <data name="SelectedColor" xml:space="preserve">
     <value>Currently selected color</value>
   </data>
@@ -1043,5 +1034,110 @@ En ocasiones raras, las ventanas pueden emit un sonido de aviso cuando el ratón
   </data>
   <data name="HideTrayIconMsg_Title" xml:space="preserve">
     <value>Esconder icono de la bandeja del sistema</value>
+  </data>
+  <data name="AutoSwitchNotifyUnavailable_Content" xml:space="preserve">
+    <value>El sensor de luz ambiental cambia en cuanto el brillo supera un umbral, así que no hay ningún cambio próximo que anunciar con antelación.</value>
+    <comment>Info bar explaining why the switch notification option is disabled</comment>
+  </data>
+  <data name="AutoSwitchNotifyUnavailable_Title" xml:space="preserve">
+    <value>No disponible con el sensor de luz ambiental</value>
+    <comment>Info bar title shown when the ambient light governor is active</comment>
+  </data>
+  <data name="HotkeyDuplicateErrorTitle" xml:space="preserve">
+    <value>Tecla rápida duplicada</value>
+  </data>
+  <data name="HotkeyDuplicateErrorMessage" xml:space="preserve">
+    <value>Esta tecla rápida es — usada por "{0}". Por favor, elige una combinación de tonalidades diferente.</value>
+  </data>
+  <data name="HotkeyInvalidErrorMessage" xml:space="preserve">
+    <value>Combinación de teclas rápidas inválida. Por favor, incluye al menos una tecla que no sea modificadora (por ejemplo, una letra, un número o una tecla de función).</value>
+  </data>
+  <data name="NextUpdateInProgress" xml:space="preserve">
+    <value>En progreso</value>
+    <comment>Shown instead of a date when the location has not been retrieved yet</comment>
+  </data>
+  <data name="ShowTrayIcon" xml:space="preserve">
+    <value>Icono de mostrar bandeja (recomendado)</value>
+  </data>
+  <data name="AmbientLightSensor" xml:space="preserve">
+    <value>Sensor de luz ambiental</value>
+  </data>
+  <data name="AmbientLightSensor_Description" xml:space="preserve">
+    <value>Cambia automáticamente de tema según los niveles de luz ambiental detectados por el sensor de luz de tu dispositivo.</value>
+  </data>
+  <data name="AmbientLightThresholds" xml:space="preserve">
+    <value>Umbrales de luz</value>
+  </data>
+  <data name="AmbientLightThresholds_Header" xml:space="preserve">
+    <value>Configurar umbrales de luz</value>
+  </data>
+  <data name="AmbientLightThresholds_Description" xml:space="preserve">
+    <value>Esta función cambia automáticamente el tema según el brillo de tu entorno. Ajusta los niveles de luz (en lux) a partir de los cuales debe cambiar el tema. Utiliza diferentes umbrales para evitar cambios rápidos.</value>
+  </data>
+  <data name="AmbientLightDarkThreshold" xml:space="preserve">
+    <value>Oscuro abajo (lux)</value>
+  </data>
+  <data name="AmbientLightLightThreshold" xml:space="preserve">
+    <value>Luz arriba (lux)</value>
+  </data>
+  <data name="AmbientLightCurrentReading" xml:space="preserve">
+    <value>Nivel de luz actual</value>
+  </data>
+  <data name="AmbientLightReference" xml:space="preserve">
+    <value>Guía de referencia de niveles de luz</value>
+  </data>
+  <data name="AmbientLightRef_Moonlight" xml:space="preserve">
+    <value>Luz de luna</value>
+  </data>
+  <data name="AmbientLightRef_VeryDark" xml:space="preserve">
+    <value>Habitación muy oscura</value>
+  </data>
+  <data name="AmbientLightRef_DimRoom" xml:space="preserve">
+    <value>Habitación tenuemente iluminada</value>
+  </data>
+  <data name="AmbientLightRef_LivingRoom" xml:space="preserve">
+    <value>Salón / dormitorio</value>
+  </data>
+  <data name="AmbientLightRef_Office" xml:space="preserve">
+    <value>Iluminación de oficina</value>
+  </data>
+  <data name="AmbientLightRef_Overcast" xml:space="preserve">
+    <value>Día nublado en interiores</value>
+  </data>
+  <data name="AmbientLightRef_DaylightShade" xml:space="preserve">
+    <value>Luz del día (sombra)</value>
+  </data>
+  <data name="AmbientLightRef_DirectSun" xml:space="preserve">
+    <value>Luz solar directa</value>
+  </data>
+  <data name="AmbientLightNoSensor" xml:space="preserve">
+    <value>No se detectó ningún sensor</value>
+  </data>
+  <data name="AmbientLightAutoConfigure" xml:space="preserve">
+    <value>Calibrar</value>
+  </data>
+  <data name="AmbientLightAutoConfigure_ToolTip" xml:space="preserve">
+    <value>Establecer automáticamente umbrales basados en el nivel de luz actual (±15% de smart gap)</value>
+  </data>
+  <data name="AmbientLightSensor_ToolTip" xml:space="preserve">
+    <value>Cambia automáticamente el tema según la iluminación del entorno</value>
+  </data>
+  <data name="AmbientLightSensor_Unavailable_ToolTip" xml:space="preserve">
+    <value>Esta función no está disponible en tu dispositivo porque no se detectó ningún sensor de luz ambiental</value>
+  </data>
+  <data name="AmbientLightCurrent" xml:space="preserve">
+    <value>Actualidad:</value>
+  </data>
+  <data name="DocumentationSocial" xml:space="preserve">
+    <value>Documentación y Redes Sociales</value>
+  </data>
+  <data name="UsedSoftware" xml:space="preserve">
+    <value>Software usado</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Diagnóstico</value>
+  </data>
+  <data name="Contributors" xml:space="preserve">
+    <value>Colaboradores</value>
   </data>
 </root>

@@ -364,9 +364,6 @@ Auto Dark Mode робить ваше повсякдення приємнішим
   <data name="Hex code" xml:space="preserve">
     <value>Шістнадцятковий код</value>
   </data>
-  <data name="HideTrayIcon" xml:space="preserve">
-    <value>Приховати значок в треї</value>
-  </data>
   <data name="Hotkeys" xml:space="preserve">
     <value>Гарячі клавіші</value>
   </data>
@@ -790,9 +787,6 @@ Auto Dark Mode робить ваше повсякдення приємнішим
     <value>Схід сонця</value>
     <comment>Info for Translators: Use name from the Win11 settings (go to personalization -&gt; themes and hover over the theme name)</comment>
   </data>
-  <data name="ThirdParty" xml:space="preserve">
-    <value>Використане стороннє програмне забезпечення</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>Час</value>
   </data>
@@ -965,7 +959,7 @@ Auto Dark Mode робить ваше повсякдення приємнішим
     <value>Акцентний колір для рядків заголовків та меж вікон</value>
   </data>
   <data name="AggressiveDwmRefresh" xml:space="preserve">
-    <value>Більш агресивне оновлення DWM</value>
+    <value>Більш агресивне перемикання теми</value>
   </data>
   <data name="OffsetTime_Header" xml:space="preserve">
     <value>Delay switching by a number minutes</value>
@@ -1010,9 +1004,6 @@ Auto Dark Mode робить ваше повсякдення приємнішим
   <data name="OpenWindowsSettings" xml:space="preserve">
     <value>Відкрийте параметри Windows</value>
   </data>
-  <data name="HotkeyInfoBarMessage" xml:space="preserve">
-    <value>Гарячі клавіші можна змінити лише тоді, коли вони вимкнені</value>
-  </data>
   <data name="SelectedColor" xml:space="preserve">
     <value>Currently selected color</value>
   </data>
@@ -1043,5 +1034,110 @@ Auto Dark Mode робить ваше повсякдення приємнішим
   </data>
   <data name="HideTrayIconMsg_Title" xml:space="preserve">
     <value>Приховати значок в треї</value>
+  </data>
+  <data name="AutoSwitchNotifyUnavailable_Content" xml:space="preserve">
+    <value>Сенсор зовнішнього освітлення спрацьовує, щойно яскравість перетинає порогове значення, тому немає наступного перемикання, про яке можна було б повідомити заздалегідь.</value>
+    <comment>Info bar explaining why the switch notification option is disabled</comment>
+  </data>
+  <data name="AutoSwitchNotifyUnavailable_Title" xml:space="preserve">
+    <value>Недоступно із сенсором навколишнього освітлення</value>
+    <comment>Info bar title shown when the ambient light governor is active</comment>
+  </data>
+  <data name="HotkeyDuplicateErrorTitle" xml:space="preserve">
+    <value>Дублювати гарячу клавішу</value>
+  </data>
+  <data name="HotkeyDuplicateErrorMessage" xml:space="preserve">
+    <value>Ця гаряча клавіша уже використовується для «{0}». Виберіть іншу комбінацію.</value>
+  </data>
+  <data name="HotkeyInvalidErrorMessage" xml:space="preserve">
+    <value>Неправильна комбінація гарячих клавіш. Додайте принаймні одну клавішу, що не є модифікатором (наприклад, літеру, цифру або функціональну клавішу).</value>
+  </data>
+  <data name="NextUpdateInProgress" xml:space="preserve">
+    <value>У роботі</value>
+    <comment>Shown instead of a date when the location has not been retrieved yet</comment>
+  </data>
+  <data name="ShowTrayIcon" xml:space="preserve">
+    <value>Показувати значок у лотку (рекомендовано)</value>
+  </data>
+  <data name="AmbientLightSensor" xml:space="preserve">
+    <value>Сенсор зовнішнього освітлення</value>
+  </data>
+  <data name="AmbientLightSensor_Description" xml:space="preserve">
+    <value>Автоматично перемикайте теми залежно від рівня навколишнього освітлення, зафіксованого сенсором світла вашого пристрою.</value>
+  </data>
+  <data name="AmbientLightThresholds" xml:space="preserve">
+    <value>Поріг освітленості</value>
+  </data>
+  <data name="AmbientLightThresholds_Header" xml:space="preserve">
+    <value>Налаштувати пороги освітленості</value>
+  </data>
+  <data name="AmbientLightThresholds_Description" xml:space="preserve">
+    <value>Ця функція автоматично змінює тему залежно від яскравості навколишнього середовища. Встановіть рівні освітленості (у люксах), при яких тема має перемикатися. Використовуйте різні порогові значення, щоб запобігти занадто частому перемиканню.</value>
+  </data>
+  <data name="AmbientLightDarkThreshold" xml:space="preserve">
+    <value>Точка темряви (люкс)</value>
+  </data>
+  <data name="AmbientLightLightThreshold" xml:space="preserve">
+    <value>Точка світла (люкс)</value>
+  </data>
+  <data name="AmbientLightCurrentReading" xml:space="preserve">
+    <value>Поточний рівень освітленості</value>
+  </data>
+  <data name="AmbientLightReference" xml:space="preserve">
+    <value>Довідник рівнів освітленості</value>
+  </data>
+  <data name="AmbientLightRef_Moonlight" xml:space="preserve">
+    <value>Місячне світло</value>
+  </data>
+  <data name="AmbientLightRef_VeryDark" xml:space="preserve">
+    <value>Дуже темна кімната</value>
+  </data>
+  <data name="AmbientLightRef_DimRoom" xml:space="preserve">
+    <value>Тьмяно освітлена кімната</value>
+  </data>
+  <data name="AmbientLightRef_LivingRoom" xml:space="preserve">
+    <value>Вітальня / спальня</value>
+  </data>
+  <data name="AmbientLightRef_Office" xml:space="preserve">
+    <value>Офісне освітлення</value>
+  </data>
+  <data name="AmbientLightRef_Overcast" xml:space="preserve">
+    <value>Хмарний день у приміщенні</value>
+  </data>
+  <data name="AmbientLightRef_DaylightShade" xml:space="preserve">
+    <value>Денне світло (відтінок)</value>
+  </data>
+  <data name="AmbientLightRef_DirectSun" xml:space="preserve">
+    <value>Пряме сонячне світло</value>
+  </data>
+  <data name="AmbientLightNoSensor" xml:space="preserve">
+    <value>Сенсор не виявлено</value>
+  </data>
+  <data name="AmbientLightAutoConfigure" xml:space="preserve">
+    <value>Калібрувати</value>
+  </data>
+  <data name="AmbientLightAutoConfigure_ToolTip" xml:space="preserve">
+    <value>Автоматично встановлювати пороги на основі поточного рівня освітленості (розумний інтервал ±15%)</value>
+  </data>
+  <data name="AmbientLightSensor_ToolTip" xml:space="preserve">
+    <value>Автоматично перемикає тему залежно від освітлення середовища</value>
+  </data>
+  <data name="AmbientLightSensor_Unavailable_ToolTip" xml:space="preserve">
+    <value>Ця функція недоступна на вашому пристрої, оскільки не виявлено сенсора зовнішнього освітлення</value>
+  </data>
+  <data name="AmbientLightCurrent" xml:space="preserve">
+    <value>Поточна:</value>
+  </data>
+  <data name="DocumentationSocial" xml:space="preserve">
+    <value>Документація та соцмережі</value>
+  </data>
+  <data name="UsedSoftware" xml:space="preserve">
+    <value>Використане ПЗ</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Діагностика</value>
+  </data>
+  <data name="Contributors" xml:space="preserve">
+    <value>Вкладники</value>
   </data>
 </root>
